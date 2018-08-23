@@ -1,0 +1,64 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.jumbotron {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: red;
+}
+
+.description {
+  margin-top: 0px ;
+}
+
+.article-actions {
+  padding-top: 10px;
+  margin-top: 30px;
+  border-top: 1px solid black;
+}
+
+.article-title {
+  font-size: 1.5em;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.article-body {
+  padding-bottom: 20px;
+}
+
+.footer {
+  border-top: 1px solid black;
+  margin-top: 30px;
+}
+
+.footer small {
+  float: left;
+}
+
+.footer nav {
+  float: right;
+
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer li {
+  float: left;
+  margin-right: 15px;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  background-color: grey;
+}
