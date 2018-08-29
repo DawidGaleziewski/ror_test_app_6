@@ -27,7 +27,7 @@ class ArticlesController < ApplicationController
     #debugger
     
     @article = Article.new(article_params)
-    @article.user = User.first
+    @article.user = User.last
 
     respond_to do |format|
       if @article.save
